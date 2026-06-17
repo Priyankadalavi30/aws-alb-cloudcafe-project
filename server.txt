@@ -1,0 +1,16 @@
+👉 Server 1 EC2:
+
+☕ Cloud Café - Production Environment
+🖥️ Instance: Server 1
+🌐 Service: AWS EC2 + Nginx
+⚖️ Load Balancer: Application Load Balancer (ALB)
+📍 Status: Active & Healthy
+🚀 Region: ap-south-1 (Mumbai)
+
+👉 Server 2 EC2:
+☕ Cloud Café - Production Environment
+🖥️ Instance: Server 2
+🌐 Service: AWS EC2 + Nginx
+⚖️ Load Balancer: Application Load Balancer (ALB)
+📍 Status: Active & Healthy
+🚀 Region: ap-south-1 (Mumbai)
