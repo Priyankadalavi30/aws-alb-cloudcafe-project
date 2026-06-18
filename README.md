@@ -31,7 +31,7 @@ Web Application
 
 ### 🖥️ EC2 Instances
 
-![EC2 Instances](images/instances.png)
+![EC2 Instances](images/instances.jpeg)
 
 ---
 
@@ -58,7 +58,7 @@ Web Application
 
 ### Application Load Balancer
 
-![Application Load Balancer](images/load-balancer.png)
+![Application Load Balancer](images/load-balancer.jpeg)
 ---
 
 ## 🔍 Health Check
@@ -70,7 +70,7 @@ ALB continuously checks the health of registered EC2 instances.
 
 ### Target Group
 
-![Target Group](images/target-group.png)
+![Target Group](images/target-group.jpeg)
 
 
 ---
@@ -79,11 +79,11 @@ ALB continuously checks the health of registered EC2 instances.
 
 ### Architecture Diagram
 
-![Cloud Café AWS Architecture](images/cafe-architecture.png)
+![Cloud Café AWS Architecture](images/cafe-architecture.jpeg)
 
 ### Website Output
 
-![Cloud Café Website Output](images/cafe-output.png)
+![Cloud Café Website Output](images/cafe-output.jpeg)
 
 ---
 
