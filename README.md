@@ -1,52 +1,106 @@
-# ☕ Cloud Café - AWS ALB Project
+# ☕ Cloud Café – AWS Application Load Balancer Project
 
-## 📌 Project Overview
-This project demonstrates a simple highly available web application using AWS services. Two EC2 instances are placed behind an Application Load Balancer (ALB) to distribute traffic evenly.
+## 🚀 Project Overview
+Cloud Café is a simple web application deployed on AWS to understand how an **Application Load Balancer (ALB)** distributes incoming user traffic across multiple EC2 instances.
 
----
-
-## ☁️ Architecture Diagram
-
-- Users access application via ALB
-- ALB distributes traffic across multiple EC2 instances
-- Each EC2 runs Nginx web server
-- Ensures high availability and fault tolerance
+The project demonstrates a highly available web architecture using AWS services.
 
 ---
 
-## ☁️ AWS Services Used
-- Amazon EC2
-- Application Load Balancer (ALB)
-- Target Groups
-- Security Groups
+## 🏗️ Architecture
+
+User  
+↓  
+Application Load Balancer (ALB)  
+↓  
+Target Group  
+↓  
+EC2 Instance 1 + EC2 Instance 2  
+↓  
+Web Application
 
 ---
 
-## ⚙️ Setup Summary
-- Launched 2 EC2 instances (t2.micro)
-- Installed and configured Nginx web server
-- Created Target Group and registered instances
-- Created Application Load Balancer
-- Configured listener on port 80
+## 🛠️ AWS Services Used
+
+- **Amazon EC2** – Hosted the Cloud Café web application
+- **Application Load Balancer (ALB)** – Distributed traffic between EC2 instances
+- **Target Group** – Managed registered EC2 instances
+- **Security Group** – Controlled inbound and outbound traffic
+- **AWS VPC** – Provided networking environment
+
+### 🖥️ EC2 Instances
+
+![EC2 Instances](images/instances.png)
 
 ---
 
-## 🔄 Load Balancing Working
-- ALB distributes incoming traffic between both EC2 instances
-- If one server fails, traffic is routed to the healthy instance
-- Ensures high availability and fault tolerance
+## ⚙️ Project Workflow
+
+1. Created two EC2 instances.
+2. Installed and hosted the Cloud Café website on both instances.
+3. Configured Security Groups for HTTP access.
+4. Created a Target Group and registered EC2 instances.
+5. Created an Application Load Balancer.
+6. Connected ALB with the Target Group.
+7. Tested website accessibility using ALB DNS URL.
+
+
 
 ---
 
-## 🌐 Result
-Accessing the ALB DNS shows response from:
-- Server 1 OR
-- Server 2 (based on load balancing)
+## 🎯 Why Application Load Balancer?
+
+- Provides high availability
+- Distributes user requests across multiple servers
+- Prevents single server failure
+- Performs health checks on instances
+
+### Application Load Balancer
+
+![Application Load Balancer](images/load-balancer.png)
+---
+
+## 🔍 Health Check
+
+ALB continuously checks the health of registered EC2 instances.
+
+- Healthy Instance → Receives traffic
+- Unhealthy Instance → Removed from traffic distribution
+
+### Target Group
+
+![Target Group](images/target-group.png)
+
 
 ---
 
-## 🎯 Key Learning
-- How ALB works in AWS
-- Target Group and Health Checks
-- High Availability concept
-- Basic AWS architecture design
+## 📸 Project Screenshots
+
+### Architecture Diagram
+
+![Cloud Café AWS Architecture](images/cafe-architecture.png)
+
+### Website Output
+
+![Cloud Café Website Output](images/cafe-output.png))
+
+---
+
+## 🌐 Output
+
+The Cloud Café website is successfully accessible through the Application Load Balancer DNS URL.
+
+🔗 **Live Website URL:**  
+
+http://cloudcafe-alb-281684157.ap-south-1.elb.amazonaws.com/
+
+
+---
+
+## 👩‍💻 Author
+
+**Priyanka Dalavi**
+
+GitHub:  
+https://github.com/UtkarshaBhokare47
