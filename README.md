@@ -100,10 +100,15 @@ http://cloudcafe-alb-281684157.ap-south-1.elb.amazonaws.com/
 
 
 ---
-
 ## 👩‍💻 Author
 
 **Priyanka Dalavi**
+
+🔗 GitHub Profile:
+https://github.com/Priyankadalavi30
+
+🔗 Project Repository:
+https://github.com/Priyankadalavi30/aws-alb-cloudcafe-project
 
 GitHub:  
 https://github.com/UtkarshaBhokare47
