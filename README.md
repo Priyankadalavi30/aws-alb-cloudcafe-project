@@ -83,7 +83,7 @@ ALB continuously checks the health of registered EC2 instances.
 
 ### Website Output
 
-![Cloud Café Website Output](images/cafe-output.png))
+![Cloud Café Website Output](images/cafe-output.png)
 
 ---
 
