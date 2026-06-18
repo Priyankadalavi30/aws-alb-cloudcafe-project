@@ -19,6 +19,11 @@ EC2 Instance 1 + EC2 Instance 2
 ↓  
 Web Application
 
+### Architecture Diagram
+
+![Cloud Café AWS Architecture](images/cafe-architecture.jpeg)
+
+
 ---
 
 ## 🛠️ AWS Services Used
@@ -74,8 +79,6 @@ ALB continuously checks the health of registered EC2 instances.
 
 
 ---
-
-## 📸 Project Screenshots
 
 ### Architecture Diagram
 
